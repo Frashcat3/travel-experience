@@ -16,7 +16,7 @@
     </header>
 
     <main class="area-cadastro">
-        <form action="formCadastro">
+        <form id="formCadastro">
             <h2>Planeje sua próxima viagem!</h2>
 
             <label for="nome">Nome:</label>
@@ -28,7 +28,7 @@
             <input type="email" id="email" placeholder="seu@email.com" required>
             <br><br>
             <label for="destino">Destinos desejado:</label>
-            <select id="destino required">
+            <select id="destino" name="destino" required>
                 <option value="">Escolha um destino</option>
                 <option value="Rio de Janeiro">Rio de Janeiro</option>
                 <option value="Paris">Paris</option>
@@ -42,5 +42,10 @@
             
         </form>
     </main>
+    <footer>
+        <p>Travel Experience 2026</p>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
