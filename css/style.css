@@ -1,18 +1,30 @@
 body{
-    margin: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.linha{
     display: flex;
-    gap: 20px;
-}
-.caixa{
+    justify-content: center;
     align-items: center;
-    display: flex;
-    padding: 200px;
-    box-sizing: border-box;
-    width: 33%;
-    height: 10px;
-     background-color: #39d6eb;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f3f4f6;
+    font-family: arial, sans-serif;
 }
- 
+.cartao{
+    width: 320px;
+    padding: 35px; /*aletório*/
+    background-color: white;
+    border-radius: 20px; /*aleatório*/
+    box-shadow: 0 4px 10px rgba(218, 4, 146, 0.5); /*aumentem esses valores*/
+    text-align: center;
+}
+#título{
+    font-size: 32px;
+    color: #2563eb;
+}
+button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2563eb;
+    font-size: 16px;
+    cursor: pointer;
+}
